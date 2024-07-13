@@ -7,9 +7,9 @@ gsap.registerPlugin(useGSAP);
 const Preloader = () => {
     useGSAP(() => {
         gsap.from("h2", {yPercent: -100})
-        gsap.fromTo(".up", {yPercent: -50, opacity: 0}, {yPercent: 0, opacity: 1, delay: .5})
-        gsap.fromTo(".bot", {yPercent: 50, opacity: 0}, {yPercent: 0, opacity: 1, delay: .5})
-        gsap.fromTo(".line", {width: "0%"}, {width: "90%", delay: 1.4})
+        gsap.fromTo(".up", {yPercent: -50, opacity: 0}, {yPercent: 0, opacity: 1, delay: .5, duration: 2})
+        gsap.fromTo(".bot", {yPercent: 50, opacity: 0}, {yPercent: 0, opacity: 1, delay: .5, duration: 2})
+        gsap.fromTo(".line", {width: "0%"}, {width: "90%", delay: 1.4, duration: 1})
         gsap.fromTo(".cta", {filter: "blur(10px)"}, {filter: "blur(0px)", delay: 2})
     }, [])
     
