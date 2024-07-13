@@ -3,7 +3,7 @@ import "./hero.scss"
 const Hero = () => {
   return (
     <section className="hero" id="hero">
-     hero
+     Jason Williams
     </section>
   )
 }

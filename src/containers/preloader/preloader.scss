@@ -32,6 +32,11 @@
         align-items: center;
         min-height: 80svh;
 
+        &-text {
+            margin-block-start: 2rem;
+            font-size: clamp(2rem, 1.308411214953271rem + 2.990654205607477vw, 4rem);
+        }
+
         h1 {
             font-weight: normal;
             font-size: clamp(8rem, 5.579439252336448rem + 10.46728971962617vw, 15rem);
@@ -40,14 +45,6 @@
             line-height: 0.8;
         }
     }
-}
-
-.cta {
-    padding: 1rem 2rem;
-    margin-block-start: 2rem;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
 }
 
 .line {
