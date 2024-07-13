@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Mor";
+    src: url("../src/assets/fonts/Morganite-Medium.ttf") format(truetype);
+    text-rendering: optimizeSpeed;
+  }
+  
+  :root {
+    --ff-main: "Mor";
+  }
